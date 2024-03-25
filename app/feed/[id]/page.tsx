@@ -18,7 +18,7 @@ export default async function Page({
     pageNumber = pageNumber >= 1 ? pageNumber : 1;
 
     const profiles = await fetchFeedProfilesData(pageNumber);
-    const founderProfile = profiles?.at(0);
+    const founderProfile = profiles?.at(pageNumber - 1);
     
 
     return (

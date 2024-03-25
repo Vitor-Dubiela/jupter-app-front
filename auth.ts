@@ -3,6 +3,7 @@ import { authConfig } from './auth.config';
 import Credentials from 'next-auth/providers/credentials';
 import { z } from 'zod';
 import { User } from './app/lib/definitions';
+import loginData from './res/login-data.json';
 
 
 async function getUser(
@@ -10,15 +11,10 @@ async function getUser(
     password: string
 ) {
     try {
-        const result = await fetch("http://localhost:5065/api/Auth/SignIn", {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ email: email, password: password }),
-        });
-
-        const user = await result.json();
+        var user = loginData as any;
+        var date = new Date();
+        date.setUTCDate(date.getUTCDate() + 7);
+        user.expiration = date.toJSON();
 
         return user as User;
     } catch (error) {
@@ -44,6 +40,7 @@ export const { auth, signIn, signOut } = NextAuth({
                     const { email, password } = parsedCredentials.data;
                     const user = await getUser(email, password);
 
+                    console.log(user);
                     if (user && user.token) return user;
                 }
 

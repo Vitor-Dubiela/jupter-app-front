@@ -1,0 +1,84 @@
+
+[
+    {
+        "founderCompany": {
+          "id": 1,
+          "assetsUnderManagement": 850000,
+          "companyName": "NEN",
+          "companyTypeId": 4,
+          "companyWebsite": "https://nen.com",
+          "createdAt": "2024-03-14T20:51:33",
+          "founderProfileId": 1,
+          "stateWithMoreActivity": 24,
+          "updatedAt": "2024-03-14T20:51:33"
+        },
+        "founderProfile": {
+          "id": 1,
+          "amountOfStartupsInPortfolio": 13,
+          "createdAt": "2024-03-14T20:50:35",
+          "dryPowder": 1000000,
+          "investmentFunds": 5,
+          "isAgnosticFounder": false,
+          "leadOrParticipate": 1,
+          "maxTicket": 250000,
+          "minTicket": 45000,
+          "profileImage": "profile-927d0499-aadf-4900-a156-448e038a698e.jpg",
+          "profileName": "NEN",
+          "recurrentTicket": 80000,
+          "updatedAt": "2024-03-14T20:50:35",
+          "userId": "927d0499-aadf-4900-a156-448e038a698e"
+        },
+        "participationStage": 4,
+        "sectors": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "stageUsedToInvest": 2
+    },
+    {
+        "founderCompany": {
+          "id": 2,
+          "assetsUnderManagement": 1500000,
+          "companyName": "Katara",
+          "companyTypeId": 11,
+          "companyWebsite": "https://katara.com",
+          "createdAt": "2024-03-20T08:09:59",
+          "founderProfileId": 2,
+          "stateWithMoreActivity": 18,
+          "updatedAt": "2024-03-20T08:09:59"
+        },
+        "founderProfile": {
+          "id": 2,
+          "amountOfStartupsInPortfolio": 5,
+          "createdAt": "2024-03-20T08:08:36",
+          "dryPowder": 1000000,
+          "investmentFunds": 8,
+          "isAgnosticFounder": true,
+          "leadOrParticipate": 3,
+          "maxTicket": 400000,
+          "minTicket": 35000,
+          "profileImage": "profile-2f6141ce-aee8-467f-8bcb-43c3f9a85123.jpeg",
+          "profileName": "Katara",
+          "recurrentTicket": 150000,
+          "updatedAt": "2024-03-20T08:08:36",
+          "userId": "2f6141ce-aee8-467f-8bcb-43c3f9a85123"
+        },
+        "participationStage": 2,
+        "sectors": [
+          2,
+          7,
+          14,
+          17,
+          21,
+          26,
+          27,
+          32
+        ],
+        "stageUsedToInvest": 1
+    }
+]

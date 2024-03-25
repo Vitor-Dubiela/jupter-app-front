@@ -1,0 +1,60 @@
+{
+  "profiles": [
+    {
+      "contentType": "application/json",
+      "founderProfile": {
+        "id": 1,
+        "amountOfStartupsInPortfolio": 13,
+        "createdAt": "2024-03-14T20:50:35",
+        "dryPowder": 1000000,
+        "investmentFunds": 5,
+        "isAgnosticFounder": false,
+        "leadOrParticipate": 1,
+        "maxTicket": 250000,
+        "minTicket": 45000,
+        "profileImage": "profile-927d0499-aadf-4900-a156-448e038a698e.jpg",
+        "profileName": "NEN",
+        "recurrentTicket": 80000,
+        "updatedAt": "2024-03-14T20:50:35",
+        "userId": "927d0499-aadf-4900-a156-448e038a698e"
+      },
+      "profileImage": {
+        "fileContents": "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",
+        "contentType": "image/jpeg",
+        "fileDownloadName": "profile-927d0499-aadf-4900-a156-448e038a698e.jpg",
+        "lastModified": null,
+        "entityTag": null,
+        "enableRangeProcessing": false
+      },
+      "followOrDismiss": null
+    },
+    {
+      "contentType": "application/json",
+      "founderProfile": {
+        "id": 2,
+        "amountOfStartupsInPortfolio": 5,
+        "createdAt": "2024-03-20T08:08:36",
+        "dryPowder": 1000000,
+        "investmentFunds": 8,
+        "isAgnosticFounder": true,
+        "leadOrParticipate": 3,
+        "maxTicket": 400000,
+        "minTicket": 35000,
+        "profileImage": "profile-2f6141ce-aee8-467f-8bcb-43c3f9a85123.jpeg",
+        "profileName": "Katara",
+        "recurrentTicket": 150000,
+        "updatedAt": "2024-03-20T08:08:36",
+        "userId": "2f6141ce-aee8-467f-8bcb-43c3f9a85123"
+      },
+      "profileImage": {
+        "fileContents": "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",
+        "contentType": "image/jpeg",
+        "fileDownloadName": "profile-2f6141ce-aee8-467f-8bcb-43c3f9a85123.jpeg",
+        "lastModified": null,
+        "entityTag": null,
+        "enableRangeProcessing": false
+      },
+      "followOrDismiss": null
+    }
+  ]
+}

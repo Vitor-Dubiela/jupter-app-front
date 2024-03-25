@@ -8,7 +8,6 @@ export default async function SubmitButton({
     text: string
 }) {
     const profiles = await fetchFeedProfilesData(1);
-    console.log(profiles);
 
     return (
         <div className="w-fit">

@@ -24,9 +24,6 @@ export default async function Page({
         founderProfile = await fetchCompanyMoreInfo(founderId);
     else
         founderProfile = null;
-    
-    const headersList = headers();
-    console.log(headersList.get("referer"))
 
     return (
         <Modal>

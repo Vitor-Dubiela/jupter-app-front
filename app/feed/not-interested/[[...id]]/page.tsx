@@ -13,7 +13,7 @@ export default function Page({
     }
 }) {
     const founderId = Number(params.id);
-    console.log("founderId... ", founderId);
+
     if (!founderId) {
         throw new Error;
     }
