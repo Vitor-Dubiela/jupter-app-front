@@ -1,0 +1,101 @@
+.Section {
+    background: url("../../../public/rings-horizontal-bg.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+	position: relative;
+}
+
+.Container {
+	align-items: center;
+    display: flex;
+	height: 100%;
+	justify-content: center;
+	position: relative;
+}
+
+.Modal {
+    background: var(--BG, linear-gradient(169deg, #282828 8.42%, #202020 48.96%, #202020 95.87%));
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 40px;
+	padding: 50px;
+}
+
+.ModalContent {
+	align-items: center;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 550px;
+	width: 100%;
+}
+
+.ModalContent_Error {
+	align-items: center;
+    display: flex;
+	flex-direction: column;
+	height:100vh;
+	justify-content: center;
+	max-width: 1165px;
+	width: 100%;
+}
+
+.ModalHeader {
+	align-items: center;
+    display: flex;
+    flex-direction: column;
+	margin: 0 0 15px;
+}
+
+.ModalHeading {
+    font-size: 35px;
+	text-align: center;
+}
+
+.ModalSubtitle {
+    font-size: 18px;
+	margin: 15px 0 0;
+	text-align: center;
+}
+
+.CompanyLogoWrapper {
+	margin: 40px 0;
+	max-width: 224px;
+  width: 100%;
+}
+
+.DealDescriptionSpan {
+	color: #FE6433;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.DealInformationSection_Error {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 0 40px;
+}
+
+.DealDescription {
+	font-size: 30px;
+	text-align: center;
+}
+
+.ButtonsBox {
+	align-items: center;
+  	display: flex;
+	justify-content: center;
+	margin: 40px auto 0;
+	width: 100%;
+}
+
+.LogoWrapper {
+	align-items: center;
+	bottom: 50px;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
+}

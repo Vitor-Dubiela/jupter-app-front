@@ -1,0 +1,105 @@
+.ModalContent {
+    align-items: center;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 450px;
+    opacity: 0.1;
+	width: 100%;
+}
+
+.ModalHeading {
+    color: rgba(255, 255, 255, 0);
+    font-size: 25px;
+	text-align: center;
+}
+
+.CompanyLogoWrapper {
+    background: linear-gradient(150deg, rgba(255, 255, 255, 0.266), rgb(32,32,32));
+    padding: 0.5px;
+    border-radius: 1rem;
+    display: flex;
+    margin: 40px 0;
+    max-height: 150px;
+    max-width: 150px;
+    width: 100%;
+}
+
+.ProfileImage {
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 1rem;
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.DealDescription {
+    color: rgba(255, 255, 255, 0);
+    font-size: 25px;
+	text-align: center;
+}
+
+.DealDescriptionSpan {
+    color: #FE6433;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.ButtonsBox {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	margin: 60px 0 0;
+    row-gap: 15px;
+}
+
+.DisabledLink {
+    pointer-events: none;
+}
+
+.ButtonLink:first-child {
+    margin: 0 20px 0 0;
+}
+
+.ModalHeader {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ModalSubtitle {
+    font-size: 18px;
+	text-align: center;
+}
+
+.DealInformation {
+	padding: 40px 0 0;
+}
+
+.DealInformationSection {
+    margin: 0 0 50px;
+}
+
+.DealInformationTitle {
+	color: #9D9D9D;
+	font-size: 35px;
+	margin: 0 0 15px;
+}
+
+.DealBulletPoints {
+	font-size: 25px;
+}
+
+.DealLinksBox {
+    display: flex;
+	flex-direction: column;
+}
+
+.DealLink {
+    color: #FF6B00;
+	font-size: 25px;
+}
+
+.WhyToInvest {
+    font-size: 25px;
+}
